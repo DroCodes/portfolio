@@ -1,0 +1,43 @@
+/* * {
+    scroll-behavior: smooth;
+} */
+
+#hero-section {
+    /* height: 100vh; */
+    background-image: url("../images/hero-image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#headshot {
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* #about-info,
+#img-headshot {
+    width: 40%;
+} */
+
+header {
+    position: fixed;
+    height: 50px;
+    display: block;
+    width: 100%;
+    z-index: 9;
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    /* background: #f1f5f9; */
+    background: #66ff33;
+}
+
+#fp-nav ul li .fp-tooltip {
+    color: #66ff33;
+}
